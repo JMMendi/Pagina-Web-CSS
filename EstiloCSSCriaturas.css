@@ -1,0 +1,57 @@
+body {
+	background-color:#B84C20;
+}
+
+h1 {
+	text-decoration:underline overline;
+}
+
+p {
+	font-size:20px;
+}
+
+ol.li {
+	list-style-type:hiragana;
+	font-size:30px;
+	padding:2px 2px;
+}
+
+li {
+	list-style-type:hiragana;
+	font-size:25px;
+	padding:3px 3px;
+}
+
+img {
+	border-radius:100px;
+}
+
+#kappa {
+	float:none;
+	width:400px;
+	height:300px;
+}
+
+#garuda {
+	float:none;
+	width:450px;
+	height:350px;
+}
+
+#cactilio {
+	float:none;
+	width:450px;
+	height:350px;
+}
+
+#coco {
+	float:none;
+	width:400px;
+	height:280px;
+}
+
+#fantasma {
+	float:right;
+	width:400px;
+	height:400px;
+}

@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="EstiloCSSFormulario.css" media="screen"/>
+	</head>
+	<body>
+		<h1>Formulario</h1>
+		<p>Aquí podéis rellenar un formulario para poder manteneros informados</p>
+		<form action="mailto:mendizabaly@hotmail.com" method="post">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<p><u>Nombre</u></p>
+				<input type="text" maxlength="40" size="30" value="Inserte su nombre aquí"></input>
+				<p><u>Apellidos</u></p>
+				<input type="text" maxlength="60" size="50" value="Inserte sus apellidos aquí"></input>
+				<p><u><label for="edad">Edad</label></u></p>
+				<select id="edad" name="edad">
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="35">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+					<option value="37+">37 o más</option>
+				</select>
+				<p>Género</p>
+				<input type="radio" checked name="genero" value="hombre">Hombre</input>
+				<input type="radio" name="genero" value="mujer">Mujer</input>
+				<input type="radio" name="genero" value="nobinario">No binario</input>
+				<input type="radio" name="genero" value="otro">Otro</input>
+				<p>Intereses</p>
+				<input type="checkbox" name="intereses" value="salir">Salir a pasear</input>
+				<input type="checkbox" name="intereses" value="quedar">Quedar con los amigos</input>
+				<input type="checkbox" name="intereses" value="leer">Leer un libro</input>
+				<input type="checkbox" name="intereses" value="videojuegos">Jugar a videojuegos</input>
+				<input type="checkbox" checked name="intereses" value="malversar">Cometer fraude fiscal</input><br/><br/>
+				<input type="password" name="credito" value="credito">Número de la tarjeta de crédito</input><br/><br/>
+				
+				<label for="detallesextra">Observaciones:</label><br/>
+				<textarea id="detallesextra" name="observaciones" rows="10" cols="30" placeholder="Cosas que añadir."></textarea>
+				
+			</fieldset>
+			<input type="submit" name="submit" value="Enviar"></input>
+			<input type="reset" name="reset" value="Restablecer"></input>
+		</form>
+	</body>
+</html>
